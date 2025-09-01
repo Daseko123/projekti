@@ -155,15 +155,22 @@ img {
 }
 
 @media (max-width: 600px) {
-  button {
-    width: 100%;
-    font-size: 1.1rem;
-  }
+ body {
+ font-size: 14px;
+}
+ .portfolio {
+ flex-direction: column;
+ }
+ img {
+ width: 100%;
+height: auto;
+ }
 }
 
   .projekti {
     flex: 1 1 100%;
   }
 }
+
 
 
