@@ -125,19 +125,12 @@ button:hover {
   background-color: #e6b800;
 }
 
-@media (max-width: 600px){
-    body {
-        font-size: 14px;
-    }
-    .portfolio-grid {
-        flex-direction: column;
-    }
-    img {
-        width: 100%;
-        height: auto;
-    }
-}
+@media (max-width: 768px) {
+  .portfolio-grid {
+    flex-direction: column;
+  }
 
   .projekti {
     flex: 1 1 100%;
   }
+}
