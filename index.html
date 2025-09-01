@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <title>Matka-portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Matka-portfolio</h1>
+    <nav>
+      <a href="#matkakohde">Matkakohde</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#yhteydenotto">Yhteydenotto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="matkakohde">
+      <h2>Matkakohde</h2>
+      <p>Kuva matkakohteesta jonka valitsimme.</p>
+      <img src="matkakohde2.jpg" alt="Matkakohteen kuva" width="1700" height="900"/>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="projekti">Projekti 1</div>
+        <div class="projekti">Projekti 2</div>
+        <div class="projekti">Projekti 3</div>
+      </div>
+    </section>
+
+    <section id="yhteydenotto">
+      <h2>Ota yhteyttä</h2>
+      <form>
+        <label for="nimi">Nimi:</label>
+        <input type="text" id="nimi" name="nimi" required />
+
+        <label for="email">Sähköposti:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="viesti">Viesti:</label>
+        <textarea id="viesti" name="viesti" required></textarea>
+
+        <button type="submit">Lähetä</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Matka-portfolio</p>
+  </footer>
+
+</body>
+</html>
